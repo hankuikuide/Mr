@@ -1,4 +1,5 @@
-﻿
+﻿@using Abp.Timing
+@using Abp.Web.Mvc.Extensions
 @{
     Layout = null;
 }
@@ -8,10 +9,161 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    @*<link href="~/FmContent/css/resources/CisApp-all.css" rel="stylesheet" />
+    <link href="~/FmContent/css/fm/extcommon.css" rel="stylesheet" />
+    <link href="~/FmContent/css/iconfont/iconfont.css" rel="stylesheet" />
+    <link href="~/FmContent/css/FontAwesome/css/font-awesome.css" rel="stylesheet" />*@
+
+    <title></title>
 </head>
 <body>
     <div> 
     </div>
+    @Html.IncludeScript("~/Abp/Framework/scripts/utils/ie10fix.js")
+    @Html.IncludeScript("~/Scripts/modernizr-2.8.3.js")
+
+    @Html.IncludeScript("~/Scripts/json2.min.js")
+    @Html.IncludeScript("~/Scripts/jquery-2.2.0.min.js")
+    @Html.IncludeScript("~/Scripts/jquery-ui-1.11.4.min.js")
+    @Html.IncludeScript("~/Scripts/bootstrap.min.js")
+
+    @Html.IncludeScript("~/Scripts/jquery.validate.min.js")
+    @Html.IncludeScript("~/Scripts/jquery.blockUI.js")
+    @Html.IncludeScript("~/Scripts/toastr.min.js")
+    @Html.IncludeScript("~/Scripts/others/spinjs/spin.js")
+    @Html.IncludeScript("~/Scripts/others/spinjs/jquery.spin.js")
+    @Html.IncludeScript("~/Scripts/sweetalert/sweet-alert.min.js")
+
+    @Html.IncludeScript("~/Abp/Framework/scripts/utils/ie10fix.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/abp.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.jquery.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.toastr.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.blockUI.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.spin.js")
+    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.sweet-alert.js")
+    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
+    <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
+    <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
+
+    <script src="~/FmContent/Fm.js?_t=@(DateTime.Now.Ticks)"></script>
+    <script>
+        document.title = abp.setting.get('title');
+
+        var Fm ={
+            @*Config :{
+                maskHtml:'<img src="@Url.Content("~/images/loading1.gif")" />'
+            },*@
+            Server: {
+                Config: {
+                    PageRowCount:'50'
+                }
+            }
+        }
+
+        var AppConfig = {
+            //程序版本号
+            version: '7.5.2.1',
+            //是否开发环境
+            isDev: '1',
+            //程序title
+            appTitle: '',
+            //客户端Cookie前缀
+            cookieStartWith: '',
+            //登录Cookie名称
+            loginCookieName: '',
+            //登录地址
+            loginUrl: '',
+            //注销地址
+            loginOutUrl: '',
+            //首页默认打开菜单编号
+            defaultMenuId: '',
+            //主题
+            theme: '',
+            //post 超时时间 单位ms
+            ajaxTimeOut: 60000,
+            //url前缀 （针对虚拟目录或应用程序部署方式）
+            urlStartWith:'@Url.Content("~/")',
+            // 是否启用前端数据压缩库
+            isUseJsZip:true,
+            //loading样式
+            maskHtml: (function () {
+                @*if (Fm.Browser.isIE8 || Fm.Browser.isIE9) {
+                    return '<img src="@Url.Content("~/images/loading1.gif")" />';
+                } else {*@
+                    return '<div class="spinner"><div class="bounce1"></div><div class="bounce2"></div><div class="bounce3"></div><div class="bounce4"></div><div class="bounce5"></div></div>';
+                //}
+            })(),
+            //是否启用表格单击复制功能
+            enableGridClickCopy:false,
+            //是否使用rsa非对称加密库
+            isUseRsa: true,
+            //是否使用富文本编辑器控件
+            isUseUeditor: true,
+            //是否使用文件上传组件
+            isUseUpload: true,
+            //是否使用百度图标组件Echarts(包含百度地图功能)
+            isUseEcharts: true,
+            //UI规范
+            Design: {
+                ViewPort: {},
+                //左侧菜单区域
+                Menu: {
+                    //左侧菜单模式
+                    Pressed: true,
+                    //菜单区域宽度
+                    MaxWidth: 220,
+                    MinWidth: 46
+                },
+                //查询区
+                SearchZone: {
+                    //按钮上下边距
+                    TopGauge: 3,
+                    //按钮高度
+                    BlockHeight: 24,
+                    //按钮间距
+                    Gauge: 10
+                },
+                //查询面板
+                SearchPanel: {
+                    SearchButtonWidth: 70,
+                    Padding: 3,
+                    Height: {
+                        '1': 36,
+                        '2': 66,
+                        '3': 96,
+                        '4': 126,
+                        '5': 156,
+                        '6': 186,
+                        '7': 216,
+                        '8': 246,
+                        '9': 276,
+                        '10': 306
+                    },
+                    Items: {
+                        Margin: '3 0',
+                        Width: 186,
+                        LabelWidth: 66
+                    },
+                    ToolBar: {
+                        Margin: '3 3 3 0'
+                    }
+                },
+                //固定分辨率 ie8下启用
+                FixedResolution: ''
+            }
+        };
+        var CisApp = window.CisApp = {
+            Server: {},
+            Config: {},
+            Common:{},
+            Cache: {}
+        };
+
+    </script>
+
+    <script src="~/FmContent/Boot-2.0.js"></script>
+    <script src="~/home/getserverdata?_t=@(DateTime.Now.Ticks)"></script>
+    <script src="~/CisApp/build/cisapp.all.js?_t=@(DateTime.Now.Ticks)"></script>
+    <script src="~/CisApp/app.js?_t=@(DateTime.Now.Ticks)"></script>
 </body>
 </html>

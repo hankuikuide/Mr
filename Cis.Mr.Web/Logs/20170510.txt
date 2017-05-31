@@ -1,0 +1,826 @@
+DEBUG 2017-05-10 09:58:34,496 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 09:58:34,899 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 09:58:34,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,912 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,913 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,914 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,916 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:34,919 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 09:58:35,582 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 09:58:35,582 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 09:58:35,583 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 09:58:35,583 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 09:58:36,013 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 09:58:36,827 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 09:58:36,834 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 09:58:36,846 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 09:58:36,849 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 09:58:36,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 09:58:37,022 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 09:58:37,073 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 09:58:37,074 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 09:58:37,077 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 09:58:37,077 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 09:58:37,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 09:58:37,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 09:58:37,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 09:58:37,079 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 09:58:39,429 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 09:58:39,430 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 09:58:39,432 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 09:58:39,433 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 09:58:39,434 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 09:58:46,344 [12   ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+ERROR 2017-05-10 09:58:50,903 [12   ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+DEBUG 2017-05-10 10:16:26,137 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 10:16:26,946 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 10:16:26,951 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:26,958 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 10:16:28,359 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:16:28,359 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:16:28,359 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:16:28,359 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:16:28,880 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:16:29,709 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 10:16:29,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 10:16:29,727 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 10:16:29,729 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 10:16:29,730 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 10:16:29,857 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 10:16:29,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 10:16:29,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 10:16:29,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 10:16:29,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 10:16:29,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 10:16:29,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 10:16:29,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 10:16:29,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 10:16:32,003 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 10:16:32,004 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 10:16:32,005 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 10:16:32,006 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 10:16:32,007 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 10:16:39,281 [8    ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+DEBUG 2017-05-10 10:22:11,248 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 10:22:11,671 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 10:22:11,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,682 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,683 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,686 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:11,694 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 10:22:12,330 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:22:12,331 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:22:12,332 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:22:12,332 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:22:12,747 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:22:13,511 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 10:22:13,519 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 10:22:13,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 10:22:13,533 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 10:22:13,535 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 10:22:13,676 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 10:22:13,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 10:22:13,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 10:22:13,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 10:22:13,733 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 10:22:13,734 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 10:22:13,734 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 10:22:13,735 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 10:22:13,735 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 10:22:15,851 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 10:22:15,853 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 10:22:15,854 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 10:22:15,856 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 10:22:15,857 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 10:22:22,620 [8    ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+DEBUG 2017-05-10 10:25:40,987 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 10:25:41,008 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 10:25:41,014 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,017 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,018 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,019 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,020 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,020 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,021 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,022 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,023 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,024 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:41,028 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 10:25:41,151 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:25:41,151 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:25:41,151 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:25:41,152 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:25:41,472 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:25:42,924 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 10:25:42,931 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 10:25:42,945 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 10:25:42,947 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 10:25:42,949 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 10:25:43,124 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 10:25:43,180 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 10:25:43,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 10:25:43,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 10:25:43,184 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 10:25:43,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 10:25:43,185 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 10:25:43,186 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 10:25:43,186 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 10:25:45,733 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 10:25:45,734 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 10:25:45,735 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 10:25:45,736 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 10:25:45,738 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 10:25:52,417 [7    ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+DEBUG 2017-05-10 10:26:38,871 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 10:26:39,242 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 10:26:39,248 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,249 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,256 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:39,260 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 10:26:39,876 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:26:39,876 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:26:39,876 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:26:39,877 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:26:40,304 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:26:41,168 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 10:26:41,175 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 10:26:41,188 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 10:26:41,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 10:26:41,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 10:26:41,351 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 10:26:41,403 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 10:26:41,404 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 10:26:41,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 10:26:41,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 10:26:41,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 10:26:41,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 10:26:41,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 10:26:41,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 10:26:43,857 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 10:26:43,859 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 10:26:43,860 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 10:26:43,861 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 10:26:43,862 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 10:26:50,670 [8    ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+DEBUG 2017-05-10 10:47:45,671 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 10:47:45,694 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 10:47:45,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,701 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,703 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,704 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,705 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,706 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,707 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,708 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:45,713 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 10:47:45,832 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:47:45,832 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:47:45,833 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:47:45,833 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:47:46,136 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:47:47,555 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 10:47:47,563 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 10:47:47,577 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 10:47:47,580 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 10:47:47,581 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 10:47:47,712 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 10:47:47,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 10:47:47,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 10:47:47,771 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 10:47:47,772 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 10:47:47,772 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 10:47:47,772 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 10:47:47,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 10:47:47,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 10:47:49,936 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 10:47:49,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 10:47:49,939 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 10:47:49,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 10:47:49,941 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 10:47:56,624 [12   ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+ERROR 2017-05-10 10:48:14,400 [10   ] Cis.Mr.Menus.MenuAppService              - asdfasdfasdfadsfasdfasdfasdfasdfasdfasdf
+DEBUG 2017-05-10 10:59:14,258 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 10:59:14,281 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 10:59:14,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,296 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:14,299 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 10:59:14,416 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:59:14,417 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:59:14,417 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:59:14,417 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 10:59:14,724 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 10:59:16,048 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 10:59:16,058 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 10:59:16,074 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 10:59:16,078 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 10:59:16,079 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 10:59:16,199 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 10:59:16,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 10:59:16,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 10:59:16,265 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 10:59:16,265 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 10:59:16,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 10:59:16,266 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 10:59:16,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 10:59:16,267 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 10:59:18,246 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 10:59:18,248 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 10:59:18,249 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 10:59:18,250 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 10:59:18,251 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 10:59:24,832 [8    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 10:59:24,837 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 11:00:16,015 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 11:00:16,037 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 11:00:16,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,047 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:16,055 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 11:00:16,172 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:00:16,173 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:00:16,173 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:00:16,174 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:00:16,489 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:00:17,869 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 11:00:17,878 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 11:00:17,891 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 11:00:17,893 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 11:00:17,896 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 11:00:18,011 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 11:00:18,079 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 11:00:18,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 11:00:18,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 11:00:18,084 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 11:00:18,085 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 11:00:18,085 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 11:00:18,086 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 11:00:18,086 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 11:00:20,072 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 11:00:20,074 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 11:00:20,075 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 11:00:20,076 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 11:00:20,078 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 11:00:26,580 [8    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 11:00:26,584 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 11:00:41,100 [7    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 11:00:41,101 [7    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 11:18:54,197 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 11:18:54,220 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 11:18:54,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,233 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,235 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:54,238 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 11:18:54,359 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:18:54,359 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:18:54,360 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:18:54,360 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:18:54,664 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:18:55,993 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 11:18:56,001 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 11:18:56,014 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 11:18:56,017 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 11:18:56,019 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 11:18:56,154 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 11:18:56,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 11:18:56,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 11:18:56,214 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 11:18:56,214 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 11:18:56,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 11:18:56,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 11:18:56,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 11:18:56,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 11:18:58,275 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 11:18:58,277 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 11:18:58,278 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 11:18:58,279 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 11:18:58,281 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 11:19:04,930 [9    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 11:19:04,934 [9    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 11:20:11,231 [8    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 11:20:11,257 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 11:50:18,255 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 11:50:18,277 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 11:50:18,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,285 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,286 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:18,293 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 11:50:18,436 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:50:18,437 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:50:18,437 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:50:18,437 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:50:18,749 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:50:20,165 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 11:50:20,174 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 11:50:20,188 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 11:50:20,191 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 11:50:20,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 11:50:20,367 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 11:50:20,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 11:50:20,423 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 11:50:20,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 11:50:20,427 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 11:50:20,427 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 11:50:20,428 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 11:50:20,428 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 11:50:20,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 11:50:22,999 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 11:50:23,000 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 11:50:23,002 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 11:50:23,003 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 11:50:23,004 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 11:52:45,590 [8    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 11:52:45,643 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 11:53:44,190 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 11:53:44,627 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 11:53:44,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,635 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,635 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,636 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,637 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,638 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,639 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,640 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:44,646 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 11:53:45,387 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:53:45,387 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:53:45,388 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:53:45,388 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:53:45,834 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:53:46,580 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 11:53:46,588 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 11:53:46,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 11:53:46,602 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 11:53:46,603 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 11:53:46,713 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 11:53:46,781 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 11:53:46,782 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 11:53:46,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 11:53:46,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 11:53:46,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 11:53:46,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 11:53:46,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 11:53:46,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 11:53:48,780 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 11:53:48,782 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 11:53:48,783 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 11:53:48,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 11:53:48,786 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 11:53:55,650 [8    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 11:53:55,654 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 11:54:07,629 [8    ] Cis.Mr.Menus.MenuAppService              - 添加菜单
+ERROR 2017-05-10 11:54:07,631 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 11:59:04,019 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 11:59:04,040 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 11:59:04,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,051 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,053 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,054 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:04,058 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 11:59:04,191 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:59:04,192 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:59:04,192 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:59:04,192 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 11:59:04,521 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 11:59:05,957 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 11:59:05,967 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 11:59:05,982 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 11:59:05,985 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 11:59:05,987 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 11:59:06,122 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 11:59:06,182 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 11:59:06,182 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 11:59:06,186 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 11:59:06,186 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 11:59:06,187 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 11:59:06,187 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 11:59:06,188 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 11:59:06,188 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 11:59:08,612 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 11:59:08,613 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 11:59:08,614 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 11:59:08,616 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 11:59:08,618 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 11:59:15,265 [6    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:00:01,446 [118  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:00:59,060 [115  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:03:21,063 [118  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:03:31,512 [118  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:03:41,072 [118  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:06:06,814 [145  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:06:09,478 [145  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:06:19,942 [142  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:11:08,064 [136  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:11:56,067 [136  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:12:14,251 [136  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:12:28,298 [133  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:13:08,864 [120  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:14:44,503 [105  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:14:52,717 [104  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:16:12,133 [113  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:19:14,828 [14   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:19:46,533 [163  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:20:02,267 [169  ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:23:13,086 [26   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 14:48:37,578 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 14:48:38,014 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 14:48:38,024 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,026 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,027 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,028 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,029 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,030 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,031 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:38,036 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 14:48:38,706 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:48:38,706 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:48:38,706 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:48:38,707 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:48:39,133 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:48:39,925 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 14:48:39,933 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 14:48:39,956 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 14:48:39,959 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 14:48:39,960 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 14:48:40,112 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 14:48:40,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 14:48:40,166 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 14:48:40,170 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 14:48:40,171 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 14:48:40,171 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 14:48:40,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 14:48:40,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 14:48:40,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 14:48:42,666 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 14:48:42,667 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 14:48:42,669 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 14:48:42,670 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 14:48:42,671 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 14:48:49,630 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 14:51:34,418 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 14:51:34,443 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 14:51:34,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,460 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:34,463 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 14:51:34,583 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:51:34,583 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:51:34,584 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:51:34,584 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 14:51:34,912 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 14:51:36,238 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 14:51:36,246 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 14:51:36,258 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 14:51:36,261 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 14:51:36,263 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 14:51:36,383 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 14:51:36,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 14:51:36,438 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 14:51:36,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 14:51:36,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 14:51:36,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 14:51:36,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 14:51:36,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 14:51:36,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 14:51:38,511 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 14:51:38,512 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 14:51:38,513 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 14:51:38,514 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 14:51:38,516 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 14:51:45,101 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:52:31,244 [8    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:53:40,363 [9    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:54:01,885 [9    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:55:11,376 [17   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:58:20,089 [41   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 14:59:39,652 [61   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:00:14,286 [56   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 15:02:45,899 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 15:02:45,921 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 15:02:45,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,932 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,935 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:45,940 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 15:02:46,064 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 15:02:46,065 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 15:02:46,065 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 15:02:46,065 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 15:02:46,380 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 15:02:47,752 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 15:02:47,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 15:02:47,773 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 15:02:47,775 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 15:02:47,777 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 15:02:47,906 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 15:02:47,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 15:02:47,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 15:02:47,967 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 15:02:47,968 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 15:02:47,968 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 15:02:47,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 15:02:47,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 15:02:47,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 15:02:50,110 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 15:02:50,111 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 15:02:50,113 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 15:02:50,115 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 15:02:50,116 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 15:02:56,754 [10   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:03:47,802 [7    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:03:53,026 [10   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:04:35,510 [10   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:07:18,842 [23   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:07:47,839 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:35,947 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:41,634 [39   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:43,305 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:44,914 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:46,455 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:47,829 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:50,808 [39   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:08:52,325 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:09:57,700 [39   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:10:00,303 [39   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:10:14,170 [9    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:10:31,003 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:11:29,340 [37   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:11:50,425 [37   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:11:58,153 [35   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:13:03,112 [28   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:14:52,900 [67   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:17:31,363 [40   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 15:17:33,632 [40   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+DEBUG 2017-05-10 17:33:01,177 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 17:33:01,202 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 17:33:01,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:01,221 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 17:33:01,350 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:33:01,350 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:33:01,350 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:33:01,351 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:33:01,673 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:33:03,128 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 17:33:03,136 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 17:33:03,151 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 17:33:03,154 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 17:33:03,156 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 17:33:03,296 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 17:33:03,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 17:33:03,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 17:33:03,363 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 17:33:03,363 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 17:33:03,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 17:33:03,364 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 17:33:03,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 17:33:03,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 17:33:05,715 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 17:33:05,717 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 17:33:05,718 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 17:33:05,719 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 17:33:05,721 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 17:33:12,576 [7    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+WARN  2017-05-10 17:33:21,306 [6    ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-05-10 17:33:21,306 [6    ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:6634/sys/menu/getmenus
+ERROR 2017-05-10 17:33:42,977 [7    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+WARN  2017-05-10 17:33:46,828 [16   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-05-10 17:33:46,828 [16   ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:6634/sys/menu/getmenus
+WARN  2017-05-10 17:34:57,263 [8    ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Empty or invalid anti forgery header token.
+WARN  2017-05-10 17:34:57,264 [8    ] rity.AntiForgery.AbpAntiForgeryMvcFilter - Requested URI: http://localhost:6634/sys/menu/getmenus
+DEBUG 2017-05-10 17:40:28,159 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-05-10 17:40:28,185 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-05-10 17:40:28,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Web.MrWebModule, Cis.Mr.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrDataModule, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrCoreModule, Cis.Mr.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.MrApplicationModule, Cis.Mr.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Cis.Mr.Api.MrWebApiModule, Cis.Mr.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:28,203 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-05-10 17:40:28,331 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:40:28,331 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:40:28,331 [1    ] o.Configuration.LanguageManagementConfig - Converted Mr (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:40:28,332 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-05-10 17:40:28,663 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Cis.Mr.EntityFramework.MrDbContext, Cis.Mr.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-05-10 17:40:30,159 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-05-10 17:40:30,168 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-05-10 17:40:30,180 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-05-10 17:40:30,183 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Mr
+DEBUG 2017-05-10 17:40:30,185 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-05-10 17:40:30,310 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-05-10 17:40:30,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-05-10 17:40:30,373 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-05-10 17:40:30,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-05-10 17:40:30,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.CreateUserInput
+DEBUG 2017-05-10 17:40:30,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Users.Dto.UserListDto
+DEBUG 2017-05-10 17:40:30,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-05-10 17:40:30,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-05-10 17:40:30,378 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Cis.Mr.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-05-10 17:40:32,457 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-05-10 17:40:32,459 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-05-10 17:40:32,460 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-05-10 17:40:32,461 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-05-10 17:40:32,463 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Cis.Mr.Menus.IMenuAppService' with service name 'app/menu'.
+ERROR 2017-05-10 17:40:39,168 [10   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 17:40:51,789 [10   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 17:41:06,698 [7    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 17:41:17,665 [7    ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 17:41:22,400 [11   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 17:44:05,652 [30   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 17:45:50,512 [40   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单
+ERROR 2017-05-10 17:47:14,901 [41   ] Cis.Mr.Menus.MenuAppService              - 获取所有菜单

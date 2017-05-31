@@ -1,0 +1,4 @@
+C:\hankk\Mr\Cis.Mr.Model\bin\Debug\Cis.Mr.Model.dll
+C:\hankk\Mr\Cis.Mr.Model\bin\Debug\Cis.Mr.Model.pdb
+C:\hankk\Mr\Cis.Mr.Model\obj\Debug\Cis.Mr.Model.dll
+C:\hankk\Mr\Cis.Mr.Model\obj\Debug\Cis.Mr.Model.pdb

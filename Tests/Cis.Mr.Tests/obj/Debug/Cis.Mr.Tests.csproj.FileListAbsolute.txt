@@ -40,6 +40,8 @@ C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\System.Linq.Dynamic.Core.dll
 C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\xunit.assert.dll
 C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\xunit.core.dll
 C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\xunit.execution.desktop.dll
+C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\MySql.Data.dll
 C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\Cis.Mr.Application.pdb
 C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\Cis.Mr.Core.pdb
 C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\Cis.Mr.EntityFramework.pdb
@@ -80,3 +82,4 @@ C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\xunit.execution.desktop.xml
 C:\hankk\Mr\Tests\Cis.Mr.Tests\obj\Debug\Cis.Mr.Tests.csprojResolveAssemblyReference.cache
 C:\hankk\Mr\Tests\Cis.Mr.Tests\obj\Debug\Cis.Mr.Tests.dll
 C:\hankk\Mr\Tests\Cis.Mr.Tests\obj\Debug\Cis.Mr.Tests.pdb
+C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\EntityFramework.Utilities.dll

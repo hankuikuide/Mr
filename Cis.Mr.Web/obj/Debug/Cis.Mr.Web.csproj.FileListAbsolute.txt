@@ -21,7 +21,6 @@ C:\hankk\Mr\Cis.Mr.Web\bin\AutoMapper.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Castle.Core.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Castle.Facilities.Logging.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Castle.Windsor.dll
-C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Application.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Core.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.EntityFramework.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.WebApi.dll
@@ -50,6 +49,8 @@ C:\hankk\Mr\Cis.Mr.Web\bin\Microsoft.Threading.Tasks.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Microsoft.Threading.Tasks.Extensions.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\hankk\Mr\Cis.Mr.Web\bin\MySql.Data.dll
+C:\hankk\Mr\Cis.Mr.Web\bin\MySql.Data.Entity.EF6.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Newtonsoft.Json.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Nito.AsyncEx.Concurrent.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Nito.AsyncEx.dll
@@ -69,7 +70,7 @@ C:\hankk\Mr\Cis.Mr.Web\bin\System.Web.WebPages.Deployment.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\System.Web.WebPages.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\System.Web.WebPages.Razor.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\WebGrease.dll
-C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Application.pdb
+C:\hankk\Mr\Cis.Mr.Web\bin\Swashbuckle.Core.dll
 C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Core.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.EntityFramework.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.WebApi.pdb
@@ -138,5 +139,6 @@ C:\hankk\Mr\Cis.Mr.Web\bin\zh\Hangfire.Core.resources.dll
 C:\hankk\Mr\Cis.Mr.Web\obj\Debug\Cis.Mr.Web.csprojResolveAssemblyReference.cache
 C:\hankk\Mr\Cis.Mr.Web\obj\Debug\Cis.Mr.Web.dll
 C:\hankk\Mr\Cis.Mr.Web\obj\Debug\Cis.Mr.Web.pdb
-C:\hankk\Mr\Cis.Mr.Web\bin\MySql.Data.dll
-C:\hankk\Mr\Cis.Mr.Web\bin\MySql.Data.Entity.EF6.dll
+C:\hankk\Mr\Cis.Mr.Web\bin\EntityFramework.Utilities.dll
+C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Application.dll
+C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Application.pdb

@@ -3,13 +3,29 @@ using Abp.Zero.EntityFramework;
 using Cis.Mr.Authorization.Roles;
 using Cis.Mr.MultiTenancy;
 using Cis.Mr.Users;
+using System.Data.Entity;
+using Cis.Mr.Menus;
+using Abp.Domain.Entities;
+using System;
 
 namespace Cis.Mr.EntityFramework
 {
     public class MrDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         //TODO: Define an IDbSet for your Entities...
+        public virtual IDbSet<Menu> Menus { get; set; }
 
+        public object GetPropValue(Type type)
+        {
+            switch (type.Name)
+            {
+                case "Cis.Mr.Menus.Menu":
+                    return Menus;
+                default:
+                    break;
+            }
+            return null;
+        }
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          *   But it may cause problems when working Migrate.exe of EF. If you will apply migrations on command line, do not

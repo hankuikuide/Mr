@@ -112,6 +112,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menus\Menu.cs" />
+    <Compile Include="EventDatas\CacheClearEventData.cs" />
+    <Compile Include="EventDatas\TaskCompletedEventData.cs" />
+    <Compile Include="EventHandlers\CacheEventHandler.cs" />
+    <Compile Include="Menus\IMenuRepository.cs" />
     <Compile Include="MrConsts.cs" />
     <Compile Include="MrCoreModule.cs" />
     <Compile Include="Authorization\MrAuthorizationProvider.cs" />

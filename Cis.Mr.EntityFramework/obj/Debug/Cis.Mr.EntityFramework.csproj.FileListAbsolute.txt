@@ -19,6 +19,8 @@ C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Microsoft.Threading.Tasks.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Microsoft.Threading.Tasks.Extensions.Desktop.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
+C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\MySql.Data.dll
+C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\MySql.Data.Entity.EF6.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Newtonsoft.Json.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Nito.AsyncEx.Concurrent.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Nito.AsyncEx.dll
@@ -49,9 +51,12 @@ C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\System.Collections.Immutable.xml
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\System.Linq.Dynamic.Core.xml
 C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.EntityFramework.csprojResolveAssemblyReference.cache
+C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.cisintial.resources
+C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.menuInitail.resources
+C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.menuiconInitail.resources
+C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.menutypeInitail.resources
+C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.menuupdate.resources
+C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.EntityFramework.csproj.GenerateResource.Cache
 C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.EntityFramework.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.EntityFramework.pdb
-C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\MySql.Data.dll
-C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\MySql.Data.Entity.EF6.dll
-C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.cisintial.resources
-C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.EntityFramework.csproj.GenerateResource.Cache
+C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\EntityFramework.Utilities.dll

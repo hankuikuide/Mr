@@ -7,6 +7,9 @@ using Abp.Domain.Repositories;
 using Cis.Mr.Authorization;
 using Cis.Mr.Users.Dto;
 using Microsoft.AspNet.Identity;
+using System.Linq;
+using Abp.Linq.Extensions;
+using System;
 
 namespace Cis.Mr.Users
 {
@@ -37,14 +40,23 @@ namespace Cis.Mr.Users
             CheckErrors(await UserManager.RemoveFromRoleAsync(userId, roleName));
         }
 
-        public async Task<ListResultDto<UserListDto>> GetUsers()
+        /// <summary>
+        /// 获取所有用户
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public PagedResultDto<UserListDto> GetUsers(QueryUserInput input)
         {
-            var users = await _userRepository.GetAllListAsync();
+            var query = _userRepository.GetAll();
 
-            return new ListResultDto<UserListDto>(
-                users.MapTo<List<UserListDto>>()
-                );
+            query = query.OrderByDescending(t => t.CreationTime);
+
+            var result = query.PageBy(input).ToList();
+
+            return new PagedResultDto<UserListDto>(query.Count(), result.MapTo<List<UserListDto>>());
+            //return result.MapTo<List<UserListDto>>();
         }
+
 
         public async Task CreateUser(CreateUserInput input)
         {
@@ -55,6 +67,11 @@ namespace Cis.Mr.Users
             user.IsEmailConfirmed = true;
 
             CheckErrors(await UserManager.CreateAsync(user));
+        }
+
+        public Task<PagedResultDto<UserListDto>> GetUsersAsync(QueryUserInput input)
+        {
+            throw new NotImplementedException();
         }
     }
 }

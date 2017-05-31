@@ -76,6 +76,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework.Utilities, Version=1.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EFUtilities.1.0.2\lib\EntityFramework.Utilities.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="JetBrains.Annotations, Version=10.4.0.0, Culture=neutral, PublicKeyToken=1010a0d8d6380325, processorArchitecture=MSIL">
       <HintPath>..\packages\JetBrains.Annotations.10.4.0\lib\net\JetBrains.Annotations.dll</HintPath>
       <Private>True</Private>
@@ -127,6 +131,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Linq.Dynamic.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0f07ec44de6ac832, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Linq.Dynamic.Core.1.0.6.13\lib\net45\System.Linq.Dynamic.Core.dll</HintPath>
     </Reference>
@@ -141,10 +146,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntityFramework\MrDbContext.cs" />
+    <Compile Include="EntityFramework\Repositories\MenuRepository.cs" />
     <Compile Include="EntityFramework\Repositories\MrRepositoryBase.cs" />
     <Compile Include="Migrations\201705090225162_cisintial.cs" />
     <Compile Include="Migrations\201705090225162_cisintial.Designer.cs">
       <DependentUpon>201705090225162_cisintial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705090809354_menuInitail.cs" />
+    <Compile Include="Migrations\201705090809354_menuInitail.Designer.cs">
+      <DependentUpon>201705090809354_menuInitail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705090844440_menuiconInitail.cs" />
+    <Compile Include="Migrations\201705090844440_menuiconInitail.Designer.cs">
+      <DependentUpon>201705090844440_menuiconInitail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705090929136_menutypeInitail.cs" />
+    <Compile Include="Migrations\201705090929136_menutypeInitail.Designer.cs">
+      <DependentUpon>201705090929136_menutypeInitail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705100317032_menuupdate.cs" />
+    <Compile Include="Migrations\201705100317032_menuupdate.Designer.cs">
+      <DependentUpon>201705100317032_menuupdate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -171,6 +193,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705090225162_cisintial.resx">
       <DependentUpon>201705090225162_cisintial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705090809354_menuInitail.resx">
+      <DependentUpon>201705090809354_menuInitail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705090844440_menuiconInitail.resx">
+      <DependentUpon>201705090844440_menuiconInitail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705090929136_menutypeInitail.resx">
+      <DependentUpon>201705090929136_menutypeInitail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705100317032_menuupdate.resx">
+      <DependentUpon>201705100317032_menuupdate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html style="display:block;height:100%;width:100%">
+<head>
+    <meta charset="utf-8" />
+    <title>图片查看器</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .btn {
+            outline: 0;
+            cursor: pointer;
+            white-space: nowrap;
+            text-decoration: none;
+            vertical-align: top;
+            overflow: hidden;
+            cursor: pointer;
+            display: inline-block;
+            border: 1px solid #e4e4e4;
+            background-color: #f6f6f6;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            font-size: 18px;
+            color: #919191;
+        }
+
+            .btn:hover {
+                background-color: #ccc;
+            }
+    </style>
+    <link href="../../css/fontawesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="fImageView.min.js"></script>
+</head>
+<body style="margin:0;padding:0;display:block;height:100%;width:100%;overflow:hidden">
+    <div id="con" style="height:100%;width:100%;position:relative;background-color:#E9E9E9"></div>
+    <div style="width:100%;height:30px;text-align:center;padding:5px;">
+        <a class="btn" onclick="upImage()" title="上一张">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="nextImage()" title="下一张">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="stretchH()" title="垂直拉伸">
+            <i class="fa fa-arrows-h" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="stretchV()" title="水平拉伸">
+            <i class="fa fa-arrows-v" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="originalOptimally()" title="原始尺寸">
+            <i class="fa fa-arrows" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="stretchOptimally()" title="最佳显示">
+            <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="centerImage()" title="图片居中">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="zoomIn()" title="放大">
+            <i class="fa fa-search-plus" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="zoomOut()" title="缩小">
+            <i class="fa fa-search-minus" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="rotateClockwise()" title="顺时针旋转90">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+        </a>
+        <a class="btn" onclick="rotateAntiClockwise()" title="逆时针旋转90">
+            <i class="fa fa-undo" aria-hidden="true"></i>
+        </a>
+    </div>
+    <script type="text/javascript">
+        function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+            return null;
+        }
+        var con = document.getElementById('con');
+        var panel = window._fImagePanel = new Fei.fImagePanel({
+            images: eval(getQueryString('imageList')),
+            currentIndex: parseInt(getQueryString('index') || 0, 10)
+        }).render(con);
+
+        var resize = function () {
+            con.style.height = (document.body.offsetHeight - 40) + 'px';
+            panel.width = con.offsetWidth;
+            panel.height = con.offsetHeight;
+        }
+        resize();
+
+        window.onresize = resize;
+
+        function stretchH() {
+            panel.stretchH().centerImage().doChange();
+        }
+        function stretchV() {
+            panel.stretchV().centerImage().doChange();
+        }
+        function originalOptimally() {
+            panel.originalOptimally().centerImage().doChange();
+        }
+        function stretchOptimally() {
+            panel.stretchOptimally().centerImage().doChange();
+        }
+        function centerImage() {
+            panel.centerImage().doChange();
+        }
+        function zoomIn() {
+            panel.scale(1.1).doChange();
+        }
+        function zoomOut() {
+            panel.scale(0.9).doChange();
+        }
+        function rotateClockwise() {
+            panel.rotate(90).doChange();
+        }
+        function rotateAntiClockwise() {
+            panel.rotate(-90).doChange();
+        }
+        function rotateTo() {
+            var val = parseInt(document.getElementById('rotateTo').value, 10);
+            panel.rotate(val).doChange();
+        }
+        function upImage() {
+            panel.upImage();
+        }
+        function nextImage() {
+            panel.nextImage();
+        }
+    </script>
+</body>
+</html>

@@ -29,6 +29,8 @@ C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\Nito.AsyncEx.dll
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\Nito.AsyncEx.Enlightenment.dll
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\System.Collections.Immutable.dll
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\System.Linq.Dynamic.Core.dll
+C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\MySql.Data.dll
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\Cis.Mr.Core.pdb
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\Cis.Mr.EntityFramework.pdb
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\Abp.xml
@@ -58,3 +60,4 @@ C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\System.Linq.Dynamic.Core.xml
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\obj\Debug\Cis.Mr.Migrator.csprojResolveAssemblyReference.cache
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\obj\Debug\Cis.Mr.Migrator.exe
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\obj\Debug\Cis.Mr.Migrator.pdb
+C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\EntityFramework.Utilities.dll

@@ -27,6 +27,7 @@ C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\Nito.AsyncEx.Concurrent.dll
 C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\Nito.AsyncEx.dll
 C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\Nito.AsyncEx.Enlightenment.dll
 C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\Owin.dll
+C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\Swashbuckle.Core.dll
 C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\System.Collections.Immutable.dll
 C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\System.Linq.Dynamic.Core.dll
 C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\System.Net.Http.Formatting.dll
