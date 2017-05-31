@@ -41,6 +41,11 @@ C:\hankk\Mr\Cis.Mr.Application\bin\Debug\Nito.AsyncEx.Concurrent.xml
 C:\hankk\Mr\Cis.Mr.Application\bin\Debug\Nito.AsyncEx.Enlightenment.xml
 C:\hankk\Mr\Cis.Mr.Application\bin\Debug\System.Collections.Immutable.xml
 C:\hankk\Mr\Cis.Mr.Application\bin\Debug\System.Linq.Dynamic.Core.xml
+C:\hankk\Mr\Cis.Mr.Application\bin\Debug\SwaggerDemo.XML
+C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Application.dll.config
+C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Application.dll
+C:\hankk\Mr\Cis.Mr.Web\bin\Cis.Mr.Application.pdb
+C:\hankk\Mr\Cis.Mr.Web\bin\SwaggerDemo.XML
 C:\hankk\Mr\Cis.Mr.Application\obj\Debug\Cis.Mr.Application.csprojResolveAssemblyReference.cache
 C:\hankk\Mr\Cis.Mr.Application\obj\Debug\Cis.Mr.Application.dll
 C:\hankk\Mr\Cis.Mr.Application\obj\Debug\Cis.Mr.Application.pdb
