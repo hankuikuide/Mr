@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Cis.Mr.Application</name>
+    </assembly>
+    <members>
+        <member name="T:Cis.Mr.EventHandlers.CacheEventHandler">
+            <summary>
+            TODO: Update summary.
+            </summary>
+        </member>
+        <member name="T:Cis.Mr.Menus.Dto.MenuResult">
+            <summary>
+            新版菜单表
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.Name">
+            <summary>
+            菜单名称
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.MenuType">
+            <summary>
+            菜单类型
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.Sort">
+            <summary>
+            排序号
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.ParentId">
+            <summary>
+            父菜单
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.State">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.ViewParams">
+            <summary>
+            英文名
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.ValidateCode">
+            <summary>
+            菜单权限验证码
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.Handler">
+            <summary>
+            菜单事件
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.MenuView">
+            <summary>
+            菜单视图
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.Icon">
+            <summary>
+            菜单图标
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.OperationType">
+            <summary>
+            是否为功能
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.Dto.MenuResult.SysAppKey">
+            <summary>
+            管理员菜单标识
+            </summary>
+        </member>
+        <member name="T:Cis.Mr.Menus.IMenuAppService">
+            <summary>
+            菜单管理.
+            </summary>
+        </member>
+        <member name="M:Cis.Mr.Menus.IMenuAppService.GetMenus">
+            <summary>
+            获取全部菜单app service
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Cis.Mr.Menus.IMenuAppService.CreateMenu(Cis.Mr.Menus.Dto.MenuResult)">
+            <summary>
+            创建菜单
+            </summary>
+            <param name="menu"></param>
+        </member>
+        <member name="M:Cis.Mr.Menus.IMenuAppService.UpdateMenu(Cis.Mr.Menus.Dto.MenuResult)">
+            <summary>
+            更新菜单
+            </summary>
+            <param name="menu"></param>
+        </member>
+        <member name="M:Cis.Mr.Menus.IMenuAppService.DeleteMenu(System.String)">
+            <summary>
+            删除菜单app service
+            </summary>
+            <param name="menuId"></param>
+        </member>
+        <member name="T:Cis.Mr.Menus.MenuAppService">
+            <summary>
+            菜单管理.
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.MenuAppService.CacheManager">
+            <summary>
+            属性注入 缓存对象
+            </summary>
+        </member>
+        <member name="P:Cis.Mr.Menus.MenuAppService.EventBus">
+            <summary>
+            属性注入 EventBus
+            </summary>
+        </member>
+        <member name="M:Cis.Mr.Menus.MenuAppService.#ctor(Cis.Mr.Menus.IMenuRepository)">
+            <summary>
+            构造器
+            </summary>
+            <param name="repository"></param>
+        </member>
+        <member name="M:Cis.Mr.Menus.MenuAppService.UpdateMenu(Cis.Mr.Menus.Dto.MenuResult)">
+            <summary>
+            我们都不需要调用Update方法
+            因为应用服务层的方法默认开启了工作单元模式（Unit of Work）
+            ABP框架会工作单元完成时自动保存对实体的所有更改，除非有异常抛出。有异常时会自动回滚，因为工作单元默认开启数据库事务。
+            </summary>
+            <param name="menu"></param>
+        </member>
+        <member name="M:Cis.Mr.Menus.MenuAppService.DeleteMenu(System.String)">
+            <summary>
+            删除菜单app service
+            </summary>
+            <param name="menuId"></param>
+        </member>
+        <member name="M:Cis.Mr.Menus.MenuAppService.GetMenus">
+            <summary>
+            获取全部菜单app service
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Cis.Mr.MrAppServiceBase">
+            <summary>
+            Derive your application services from this class.
+            </summary>
+        </member>
+        <member name="T:Cis.Mr.Setting.GeneralSettingProvider">
+            <summary>
+            系统通用配置.
+            </summary>
+        </member>
+        <member name="T:Cis.Mr.Users.Dto.QueryUserInput">
+            <summary>
+            TODO: Update summary.
+            </summary>
+        </member>
+        <member name="M:Cis.Mr.Users.UserAppService.GetUsers(Cis.Mr.Users.Dto.QueryUserInput)">
+            <summary>
+            获取所有用户
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

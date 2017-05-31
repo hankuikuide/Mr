@@ -10,6 +10,7 @@ using Abp.Web.SignalR;
 using Abp.Zero.Configuration;
 using Cis.Mr.Api;
 using Hangfire;
+using Abp.Configuration.Startup;
 
 namespace Cis.Mr.Web
 {
@@ -30,11 +31,20 @@ namespace Cis.Mr.Web
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<MrNavigationProvider>();
 
+            Configuration.Modules.AbpWeb().AntiForgery.IsEnabled = false;
+
             //Configure Hangfire - ENABLE TO USE HANGFIRE INSTEAD OF DEFAULT JOB MANAGER
             //Configuration.BackgroundJobs.UseHangfire(configuration =>
             //{
             //    configuration.GlobalConfiguration.UseSqlServerStorage("Default");
             //});
+
+            //GlobalConfiguration.Configuration.Formatters.Clear();
+            //var formatter = new JsonMediaTypeFormatter();
+            //formatter.SerializerSettings.ContractResolver = new DefaultContractResolver();
+            //formatter.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
+            //GlobalConfiguration.Configuration.Formatters.Add(formatter);
+            //GlobalConfiguration.Configuration.Formatters.Add(new PlainTextFormatter());
         }
 
         public override void Initialize()
