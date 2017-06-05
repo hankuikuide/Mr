@@ -168,6 +168,14 @@
     <Compile Include="Migrations\201705100317032_menuupdate.Designer.cs">
       <DependentUpon>201705100317032_menuupdate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201706010243329_drgstable.cs" />
+    <Compile Include="Migrations\201706010243329_drgstable.Designer.cs">
+      <DependentUpon>201706010243329_drgstable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201706010253505_updatesmBill.cs" />
+    <Compile Include="Migrations\201706010253505_updatesmBill.Designer.cs">
+      <DependentUpon>201706010253505_updatesmBill.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\AbpZeroDbMigrator.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MrDataModule.cs" />
@@ -205,6 +213,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705100317032_menuupdate.resx">
       <DependentUpon>201705100317032_menuupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706010243329_drgstable.resx">
+      <DependentUpon>201706010243329_drgstable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201706010253505_updatesmBill.resx">
+      <DependentUpon>201706010253505_updatesmBill.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

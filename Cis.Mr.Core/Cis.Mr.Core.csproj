@@ -112,6 +112,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dictionary\TbBenefitgroup.cs" />
+    <Compile Include="Dictionary\TbBenefitplan.cs" />
+    <Compile Include="Dictionary\TbClaimtype.cs" />
+    <Compile Include="Dictionary\TbHospital.cs" />
+    <Compile Include="Dictionary\TbPatient.cs" />
+    <Compile Include="Dictionary\TdMrLeaveHospital.cs" />
+    <Compile Include="Dictionary\TdMrMedical.cs" />
+    <Compile Include="Dictionary\TdSmBill.cs" />
+    <Compile Include="Medical\SmBill.cs" />
     <Compile Include="Menus\Menu.cs" />
     <Compile Include="EventDatas\CacheClearEventData.cs" />
     <Compile Include="EventDatas\TaskCompletedEventData.cs" />

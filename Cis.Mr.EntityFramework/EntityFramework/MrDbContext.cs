@@ -7,6 +7,8 @@ using System.Data.Entity;
 using Cis.Mr.Menus;
 using Abp.Domain.Entities;
 using System;
+using Cis.Mr.Medical;
+using Cis.Mr.Core;
 
 namespace Cis.Mr.EntityFramework
 {
@@ -14,6 +16,15 @@ namespace Cis.Mr.EntityFramework
     {
         //TODO: Define an IDbSet for your Entities...
         public virtual IDbSet<Menu> Menus { get; set; }
+        public virtual IDbSet<TbClaimtype> TbClaimtypes { get; set; }
+        public virtual IDbSet<TdSmBill> TdSmBills { get; set; }
+        public virtual IDbSet<TbBenefitgroup> TbBenefitgroups { get; set; }
+        public virtual IDbSet<TbBenefitplan> TbBenefitplans { get; set; }
+        public virtual IDbSet<TbHospital> TbHospitals { get; set; }
+        public virtual IDbSet<TbPatient> TbPatients { get; set; }
+        public virtual IDbSet<TdMrLeaveHospital> TdMrLeaveHospitals { get; set; }
+        public virtual IDbSet<TdMrMedical> TdMrMedicals { get; set; }
+
 
         public object GetPropValue(Type type)
         {

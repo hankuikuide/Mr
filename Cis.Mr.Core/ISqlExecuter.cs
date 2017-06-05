@@ -24,6 +24,6 @@ namespace Cis.Mr
         /// SQL 查询字符串
         /// 要应用于 SQL 查询字符串的参数
         /// 
-        IQueryable SqlQuery(string sql, params object[] parameters);
+        IQueryable<T> SqlQuery<T>(string sql, params object[] parameters);
     }
 }

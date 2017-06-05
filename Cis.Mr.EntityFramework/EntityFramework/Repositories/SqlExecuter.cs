@@ -16,9 +16,9 @@ namespace Cis.Mr.EntityFramework.Repositories
 
     public class SqlExecuter : ISqlExecuter, ITransientDependency
     {
-        private readonly IDbContextProvider _dbContextProvider;
+        private readonly IDbContextProvider<MrDbContext> _dbContextProvider;
 
-        public SqlExecuter(IDbContextProvider dbContextProvider)
+        public SqlExecuter(IDbContextProvider<MrDbContext> dbContextProvider)
         {
             _dbContextProvider = dbContextProvider;
         }
@@ -33,21 +33,19 @@ namespace Cis.Mr.EntityFramework.Repositories
         /// 执行命令后由数据库返回的结果
         public int Execute(string sql, params object[] parameters)
         {
-            return _dbContextProvider.DbContext.Database.ExecuteSqlCommand(sql, parameters);
+            return _dbContextProvider.GetDbContext().Database.ExecuteSqlCommand(sql, parameters);
         }
 
-        /// 
-
+        /// <summary>
         /// 创建一个原始 SQL 查询，该查询将返回给定泛型类型的元素。
-        /// 
-
-        /// 查询所返回对象的类型
-        /// SQL 查询字符串
-        /// 要应用于 SQL 查询字符串的参数
-        /// 
-        public IQueryable SqlQuery(string sql, params object[] parameters)
+        /// </summary>
+        /// <typeparam name="T">查询所返回对象的类型</typeparam>
+        /// <param name="sql">SQL 查询字符串</param>
+        /// <param name="parameters">要应用于 SQL 查询字符串的参数</param>
+        /// <returns></returns>
+        public IQueryable<T> SqlQuery<T>(string sql, params object[] parameters)
         {
-            return _dbContextProvider.DbContext.Database.SqlQuery(sql, parameters).AsQueryable();
+            return _dbContextProvider.GetDbContext().Database.SqlQuery<T>(sql, parameters).AsQueryable<T>();
         }
     }
 }
