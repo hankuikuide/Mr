@@ -61,3 +61,5 @@ C:\hankk\Mr\Tools\Cis.Mr.Migrator\obj\Debug\Cis.Mr.Migrator.csprojResolveAssembl
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\obj\Debug\Cis.Mr.Migrator.exe
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\obj\Debug\Cis.Mr.Migrator.pdb
 C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\EntityFramework.Utilities.dll
+C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\Cis.Mr.Core.dll.config
+C:\hankk\Mr\Tools\Cis.Mr.Migrator\bin\Debug\Cis.Mr.EntityFramework.dll.config

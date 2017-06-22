@@ -148,6 +148,7 @@
     <Compile Include="EntityFramework\MrDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\MenuRepository.cs" />
     <Compile Include="EntityFramework\Repositories\MrRepositoryBase.cs" />
+    <Compile Include="EntityFramework\Repositories\SqlExecuter.cs" />
     <Compile Include="Migrations\201705090225162_cisintial.cs" />
     <Compile Include="Migrations\201705090225162_cisintial.Designer.cs">
       <DependentUpon>201705090225162_cisintial.cs</DependentUpon>

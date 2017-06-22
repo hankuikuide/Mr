@@ -7,7 +7,6 @@ using System.Data.Entity;
 using Cis.Mr.Menus;
 using Abp.Domain.Entities;
 using System;
-using Cis.Mr.Medical;
 using Cis.Mr.Core;
 
 namespace Cis.Mr.EntityFramework

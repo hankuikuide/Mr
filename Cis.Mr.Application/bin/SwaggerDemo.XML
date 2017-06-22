@@ -9,6 +9,28 @@
             TODO: Update summary.
             </summary>
         </member>
+        <member name="T:Cis.Mr.Medicals.Dto.MedicalInput">
+            <summary>
+            TODO: Update summary.
+            </summary>
+        </member>
+        <member name="T:Cis.Mr.Medicals.Dto.MedicalOutput">
+            <summary>
+            TODO: Update summary.
+            </summary>
+        </member>
+        <member name="M:Cis.Mr.Medicals.IMedicalAppService.GetMedicals(Cis.Mr.Medicals.Dto.MedicalInput)">
+            <summary>
+            获取数据
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Cis.Mr.Medicals.MedicalAppService">
+            <summary>
+            TODO: Update summary.
+            </summary>
+        </member>
         <member name="T:Cis.Mr.Menus.Dto.MenuResult">
             <summary>
             新版菜单表

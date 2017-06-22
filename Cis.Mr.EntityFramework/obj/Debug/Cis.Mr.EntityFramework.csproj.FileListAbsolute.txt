@@ -62,3 +62,4 @@ C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.EntityFramework.pdb
 C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\EntityFramework.Utilities.dll
 C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.drgstable.resources
 C:\hankk\Mr\Cis.Mr.EntityFramework\obj\Debug\Cis.Mr.Migrations.updatesmBill.resources
+C:\hankk\Mr\Cis.Mr.EntityFramework\bin\Debug\Cis.Mr.Core.dll.config

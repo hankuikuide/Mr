@@ -10,7 +10,13 @@ Ext.define('CisApp.store.drgsapi.report.Medical', {
     proxy: {
         type: "ajax",
         api: { 
-            read: '/group/Medical/SearchDataByAD' //SearchDataByAD//GetAllMedical
-        }
+            read: '/api/services/CisApi/medical/GetMedicals' //
+        },
+        reader: {
+            rootProperty: 'Result.Items',
+            totalProperty: "Result.TotalCount"
+        },
+        limitParam: "MaxResultCount",
+        startParam: 'skipCount'
     }
 });

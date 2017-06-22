@@ -83,3 +83,6 @@ C:\hankk\Mr\Tests\Cis.Mr.Tests\obj\Debug\Cis.Mr.Tests.csprojResolveAssemblyRefer
 C:\hankk\Mr\Tests\Cis.Mr.Tests\obj\Debug\Cis.Mr.Tests.dll
 C:\hankk\Mr\Tests\Cis.Mr.Tests\obj\Debug\Cis.Mr.Tests.pdb
 C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\EntityFramework.Utilities.dll
+C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\Cis.Mr.Application.dll.config
+C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\Cis.Mr.Core.dll.config
+C:\hankk\Mr\Tests\Cis.Mr.Tests\bin\Debug\Cis.Mr.EntityFramework.dll.config

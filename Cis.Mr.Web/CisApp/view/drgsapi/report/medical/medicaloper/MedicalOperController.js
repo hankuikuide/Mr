@@ -25,7 +25,7 @@ Ext.define('CisApp.view.drgsapi.report.medical.medicaloper.MedicalOperController
         Ext.Ajax.request({
             method: 'post',
             params: { iParams: Ext.util.JSON.encode(record) },
-            url: '/group/Medical/SearchDataByAD',
+            url: '/api/services/CisApi/medical/GetMedicals',
             success: function (resp) {
 
             }

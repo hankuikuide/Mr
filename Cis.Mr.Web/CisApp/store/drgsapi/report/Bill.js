@@ -10,7 +10,7 @@ Ext.define('CisApp.store.drgsapi.report.Bill', {
     proxy: {
         type: "ajax",
         api: {
-            read: '/group/Medical/SearchDataByAD'
+            read: '/api/services/CisApi/medical/GetMedicals'
         }
     }
 });

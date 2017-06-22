@@ -49,3 +49,8 @@ C:\hankk\Mr\Cis.Mr.Web\bin\SwaggerDemo.XML
 C:\hankk\Mr\Cis.Mr.Application\obj\Debug\Cis.Mr.Application.csprojResolveAssemblyReference.cache
 C:\hankk\Mr\Cis.Mr.Application\obj\Debug\Cis.Mr.Application.dll
 C:\hankk\Mr\Cis.Mr.Application\obj\Debug\Cis.Mr.Application.pdb
+C:\hankk\Mr\Cis.Mr.Application\bin\Debug\Cis.Mr.Core.dll.config
+C:\hankk\Mr\Cis.Mr.Application\bin\Debug\Abp.pdb
+C:\hankk\Mr\Cis.Mr.Application\bin\Debug\Abp.AutoMapper.pdb
+C:\hankk\Mr\Cis.Mr.Application\bin\Debug\Abp.Zero.Common.pdb
+C:\hankk\Mr\Cis.Mr.Application\bin\Debug\Abp.Zero.pdb

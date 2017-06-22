@@ -38,44 +38,44 @@ Ext.define('CisApp.view.drgsapi.report.medical.MedicalController', {
                 vm.set('uploadDelete', null);
                 vm.set('valid', null);
             }
-            this.refreshInfo();
-            document.getElementById('start_layer_2').style.display = 'block';
-            Ext.Ajax.request({
-                url: '/group/Medical/GetAllMedical',
-                method: 'post',
-                params: { sParam: Ext.util.JSON.encode({ AId: record.get('AId'), HospitalId: record.get('HospitalId') }) },
-                success: function (res) {
-                    var resText = Ext.util.JSON.decode(res.responseText);
-                    if (resText.StatusCode === 0) {
-                        var getData = Ext.create("CisApp.model.drgsapi.report.Medical");
-                        getData.set(resText.Result[0]);
-                        var vmform = me.getView().up("drgsapi_report").down('drgsapi_report_medical_medicalform').getViewModel();
-                        vmform.set('medical', getData);
-                        vmform.get('medical').commit();
-                    }
-                    document.getElementById('start_layer_2').style.display = 'none';
-                }
-            });
+           // this.refreshInfo();
+           // document.getElementById('start_layer_2').style.display = 'block';
+            //Ext.Ajax.request({
+            //    url: '/group/Medical/GetAllMedical',
+            //    method: 'post',
+            //    params: { sParam: Ext.util.JSON.encode({ AId: record.get('AId'), HospitalId: record.get('HospitalId') }) },
+            //    success: function (res) {
+            //        var resText = Ext.util.JSON.decode(res.responseText);
+            //        if (resText.StatusCode === 0) {
+            //            var getData = Ext.create("CisApp.model.drgsapi.report.Medical");
+            //            getData.set(resText.Result[0]);
+            //            var vmform = me.getView().up("drgsapi_report").down('drgsapi_report_medical_medicalform').getViewModel();
+            //            vmform.set('medical', getData);
+            //            vmform.get('medical').commit();
+            //        }
+            //        document.getElementById('start_layer_2').style.display = 'none';
+            //    }
+            //});
         }
         var vmformh = me.getView().up("drgsapi_report").down('drgsapi_report_hospitaldischarge_HospitaldischargeForm').getViewModel(),
             operationdetailVm = me.getView().up("drgsapi_report").down('drgsapi_report_operationdetail').getViewModel();
         if (record.get('LId') == '-1') {
             vmformh.set('hostpitaldischarge', Ext.create("CisApp.model.drgsapi.report.HostpitalDischarge"));
         } else {
-            Ext.Ajax.request({
-                url: '/group/LeaveHospital/GetLeaveHospital',
-                method: 'post',
-                params: { sParam: Ext.util.JSON.encode({ MedicalId: record.get('AId') }) },
-                success: function (res) {
-                    var resText = Ext.util.JSON.decode(res.responseText);
-                    if (resText.StatusCode === 0) {
-                        var getData = Ext.create("CisApp.model.drgsapi.report.HostpitalDischarge");
-                        getData.set(resText.Result[0]);
-                        vmformh.set('hostpitaldischarge', getData);
-                        vmformh.get('hostpitaldischarge').commit();
-                    }
-                }
-            });
+            //Ext.Ajax.request({
+            //    url: '/group/LeaveHospital/GetLeaveHospital',
+            //    method: 'post',
+            //    params: { sParam: Ext.util.JSON.encode({ MedicalId: record.get('AId') }) },
+            //    success: function (res) {
+            //        var resText = Ext.util.JSON.decode(res.responseText);
+            //        if (resText.StatusCode === 0) {
+            //            var getData = Ext.create("CisApp.model.drgsapi.report.HostpitalDischarge");
+            //            getData.set(resText.Result[0]);
+            //            vmformh.set('hostpitaldischarge', getData);
+            //            vmformh.get('hostpitaldischarge').commit();
+            //        }
+            //    }
+            //});
         }
         var vmformhData = Ext.create("CisApp.model.drgsapi.report.Medical");
         vmformhData.set(record.data);
@@ -103,7 +103,7 @@ Ext.define('CisApp.view.drgsapi.report.medical.MedicalController', {
         return seachData;
     },
     beforeload: function () {
-       // document.getElementById('start_layer_2').style.display = 'block';
+      //  document.getElementById('start_layer_2').style.display = 'block';
     },
     dataLoaded: function () {
         var me = this,

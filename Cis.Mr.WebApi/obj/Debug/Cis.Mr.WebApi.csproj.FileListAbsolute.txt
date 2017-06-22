@@ -68,3 +68,5 @@ C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\System.Web.Http.WebHost.xml
 C:\hankk\Mr\Cis.Mr.WebApi\obj\Debug\Cis.Mr.WebApi.csprojResolveAssemblyReference.cache
 C:\hankk\Mr\Cis.Mr.WebApi\obj\Debug\Cis.Mr.WebApi.dll
 C:\hankk\Mr\Cis.Mr.WebApi\obj\Debug\Cis.Mr.WebApi.pdb
+C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\Cis.Mr.Application.dll.config
+C:\hankk\Mr\Cis.Mr.WebApi\bin\Debug\Cis.Mr.Core.dll.config
