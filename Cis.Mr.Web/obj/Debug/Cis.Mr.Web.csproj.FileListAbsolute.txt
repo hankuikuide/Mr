@@ -154,7 +154,6 @@ C:\hankk\Mr\Cis.Mr.Web\bin\Abp.AutoMapper.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Abp.Castle.Log4Net.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Abp.EntityFramework.Common.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Abp.HangFire.pdb
-C:\hankk\Mr\Cis.Mr.Web\bin\Abp.Web.Common.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Abp.EntityFramework.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Abp.Owin.pdb
 C:\hankk\Mr\Cis.Mr.Web\bin\Abp.Web.Api.pdb

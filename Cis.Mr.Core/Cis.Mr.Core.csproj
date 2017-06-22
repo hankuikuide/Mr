@@ -174,17 +174,17 @@
     <Folder Include="IRepository\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp\Abp.csproj">
-      <Project>{5b207ec0-f432-473f-8019-9437f6c09d40}</Project>
-      <Name>Abp</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\module-zero-2.0.2\src\Abp.Zero.Common\Abp.Zero.Common.csproj">
-      <Project>{dd54c8ce-3a16-402f-9ef2-0c055119bec4}</Project>
+    <ProjectReference Include="..\AbpZero\src\Abp.Zero.Common\Abp.Zero.Common.csproj">
+      <Project>{92edaad8-3c1d-4841-ab42-e8c8d5aee704}</Project>
       <Name>Abp.Zero.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\module-zero-2.0.2\src\Abp.Zero\Abp.Zero.csproj">
-      <Project>{0e54f2ce-2a78-4849-92b6-9925836ff500}</Project>
+    <ProjectReference Include="..\AbpZero\src\Abp.Zero\Abp.Zero.csproj">
+      <Project>{20fc8b13-17ce-4c02-9da7-c2e8dbad06ab}</Project>
       <Name>Abp.Zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp\Abp.csproj">
+      <Project>{9b358d30-f088-4184-82c9-25cf9dd746e7}</Project>
+      <Name>Abp</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

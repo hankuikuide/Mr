@@ -48,6 +48,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Abp.Web.Common, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Abp.Web.Common.2.0.2\lib\net46\Abp.Web.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -3100,65 +3104,61 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.AutoMapper\Abp.AutoMapper.csproj">
-      <Project>{6e108c9a-a874-4d7e-93fb-ad25a32a6ea6}</Project>
-      <Name>Abp.AutoMapper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.Castle.Log4Net\Abp.Castle.Log4Net.csproj">
-      <Project>{864051e3-7a7a-45c1-902d-49c25baebc26}</Project>
-      <Name>Abp.Castle.Log4Net</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.EntityFramework.Common\Abp.EntityFramework.Common.csproj">
-      <Project>{1599c5bc-4f35-4127-a076-90a7f3770de0}</Project>
-      <Name>Abp.EntityFramework.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.EntityFramework\Abp.EntityFramework.csproj">
-      <Project>{e5543474-2ffb-4b56-a843-a1e0f6b352bf}</Project>
-      <Name>Abp.EntityFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.HangFire\Abp.HangFire.csproj">
-      <Project>{63d38a01-d4d8-4380-becb-77fba53efcb5}</Project>
-      <Name>Abp.HangFire</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.Owin\Abp.Owin.csproj">
-      <Project>{5f876b9f-f33e-476f-b0e8-e0dd5c2593b0}</Project>
-      <Name>Abp.Owin</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.Web.Api\Abp.Web.Api.csproj">
-      <Project>{bc01e324-478a-4336-87fc-3e1030dfe10b}</Project>
-      <Name>Abp.Web.Api</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.Web.Common\Abp.Web.Common.csproj">
-      <Project>{d5432902-e59d-4ed1-aecc-0712eacae779}</Project>
-      <Name>Abp.Web.Common</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.Web.Mvc\Abp.Web.Mvc.csproj">
-      <Project>{6326ea38-7c05-4cdb-bbfc-802178528a44}</Project>
-      <Name>Abp.Web.Mvc</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.Web.SignalR\Abp.Web.SignalR.csproj">
-      <Project>{a23df6e8-858c-466f-86af-9f8a983ea6b9}</Project>
-      <Name>Abp.Web.SignalR</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp.Web\Abp.Web.csproj">
-      <Project>{a102bfcf-93f0-4808-9478-a4bd80bcbc00}</Project>
-      <Name>Abp.Web</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\aspnetboilerplate-2.0.2\src\Abp\Abp.csproj">
-      <Project>{5b207ec0-f432-473f-8019-9437f6c09d40}</Project>
-      <Name>Abp</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\module-zero-2.0.2\src\Abp.Zero.Common\Abp.Zero.Common.csproj">
-      <Project>{dd54c8ce-3a16-402f-9ef2-0c055119bec4}</Project>
+    <ProjectReference Include="..\AbpZero\src\Abp.Zero.Common\Abp.Zero.Common.csproj">
+      <Project>{92edaad8-3c1d-4841-ab42-e8c8d5aee704}</Project>
       <Name>Abp.Zero.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\module-zero-2.0.2\src\Abp.Zero.EntityFramework\Abp.Zero.EntityFramework.csproj">
-      <Project>{c35df8b2-1e42-4195-8b87-b3f0f1b8e6de}</Project>
+    <ProjectReference Include="..\AbpZero\src\Abp.Zero.EntityFramework\Abp.Zero.EntityFramework.csproj">
+      <Project>{6bc76b5f-a6f1-4d63-946e-ddac02fe2ca8}</Project>
       <Name>Abp.Zero.EntityFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\module-zero-2.0.2\src\Abp.Zero\Abp.Zero.csproj">
-      <Project>{0e54f2ce-2a78-4849-92b6-9925836ff500}</Project>
+    <ProjectReference Include="..\AbpZero\src\Abp.Zero\Abp.Zero.csproj">
+      <Project>{20fc8b13-17ce-4c02-9da7-c2e8dbad06ab}</Project>
       <Name>Abp.Zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.AutoMapper\Abp.AutoMapper.csproj">
+      <Project>{80a9a503-7984-48d6-bab7-af6d79fc1727}</Project>
+      <Name>Abp.AutoMapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.Castle.Log4Net\Abp.Castle.Log4Net.csproj">
+      <Project>{b2a5b3c3-465f-4827-b1c3-419118df62d6}</Project>
+      <Name>Abp.Castle.Log4Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.EntityFramework.Common\Abp.EntityFramework.Common.csproj">
+      <Project>{c504c546-1535-444d-8c8e-80b598bded56}</Project>
+      <Name>Abp.EntityFramework.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.EntityFramework\Abp.EntityFramework.csproj">
+      <Project>{b0742e0c-7d89-4ee7-a035-9f30bb7f84cb}</Project>
+      <Name>Abp.EntityFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.HangFire\Abp.HangFire.csproj">
+      <Project>{ca809b0d-a081-4ef2-82f6-a77cfea7361a}</Project>
+      <Name>Abp.HangFire</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.Owin\Abp.Owin.csproj">
+      <Project>{2f2ed656-4ae7-4611-a08e-512809e71064}</Project>
+      <Name>Abp.Owin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.Web.Api\Abp.Web.Api.csproj">
+      <Project>{0f5acb8e-0554-4407-aee4-1d71ee951356}</Project>
+      <Name>Abp.Web.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.Web.Mvc\Abp.Web.Mvc.csproj">
+      <Project>{d9f5b1dd-25da-4643-b973-5d6975fe1a52}</Project>
+      <Name>Abp.Web.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.Web.SignalR\Abp.Web.SignalR.csproj">
+      <Project>{92d5a0ea-739a-411e-8aac-b65f979077f5}</Project>
+      <Name>Abp.Web.SignalR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp.Web\Abp.Web.csproj">
+      <Project>{56429446-3efc-46a6-a874-d499b2ae2a71}</Project>
+      <Name>Abp.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Abp\src\Abp\Abp.csproj">
+      <Project>{9b358d30-f088-4184-82c9-25cf9dd746e7}</Project>
+      <Name>Abp</Name>
     </ProjectReference>
     <ProjectReference Include="..\Cis.Mr.Application\Cis.Mr.Application.csproj">
       <Project>{edf5d964-4c0f-4f19-b674-58a38a5e5401}</Project>
